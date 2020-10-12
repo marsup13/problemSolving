@@ -172,3 +172,20 @@ int main(){
 
 
 }
+
+
+ int ligne, colonne;
+
+    for(int i=1;i<=5;i++){
+        for (int j=1; j<=5;j++){
+            int element;
+            cin>>element;
+            if(element==1){
+                ligne=i;
+                colonne=j;
+            }
+        }
+    }
+    cout<<abs(3-ligne)+abs(3-colonne)<<endl;
+
+
